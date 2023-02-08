@@ -17,11 +17,11 @@ spring:
           uri: lb://service-customer
           predicates:
             - Path=/customers/**
-        - id: service-customer
-          uri: lb://service-customer
+        - id: service-product
+          uri: lb://service-product
           predicates:
             - Path=/products/**
-        - id: service-customer
-          uri: lb://service-customer
+        - id: service-shopping
+          uri: lb://service-shopping
           predicates:
             - Path=/invoices/**
