@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: "6-gateway"
+          default-label: "7-admin-actuator"
           uri: https://github.com/AxxelDav/ms-store.git
           searchPaths: config-data
   security:
