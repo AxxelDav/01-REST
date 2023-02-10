@@ -15,7 +15,7 @@ import java.util.List;
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
-    private CustomerRepository customerRepository;
+    CustomerRepository customerRepository;
 
     @Override
     public Customer getCustomer(Long id) {
