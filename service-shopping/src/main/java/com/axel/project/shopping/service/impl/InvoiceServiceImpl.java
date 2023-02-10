@@ -16,10 +16,10 @@ import java.util.stream.Collectors;
 public class InvoiceServiceImpl implements InvoiceService {
 
     @Autowired
-    InvoiceRepository invoiceRepository;
+    private InvoiceRepository invoiceRepository;
 
     @Autowired
-    InvoiceItemsRepository invoiceItemsRepository;
+    private InvoiceItemsRepository invoiceItemsRepository;
 
     @Override
     public Invoice getInvoice(Long id) {

@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: "2-config"
+          default-label: "3-eureka-server"
           uri: https://github.com/AxxelDav/ms-store.git
           searchPaths: config-data
   security:
