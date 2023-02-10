@@ -25,6 +25,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/customers")
 public class CustomerRest {
+
     @Autowired
     private CustomerService customerService;
 

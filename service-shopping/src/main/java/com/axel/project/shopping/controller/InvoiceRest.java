@@ -58,7 +58,7 @@ public class InvoiceRest {
     }
 
 
-    @PutMapping(value = "/id")
+    @PutMapping(value = "/{id}")
     public ResponseEntity<Invoice> updateInvoice(@PathVariable("id") long id, @RequestBody Invoice invoice) {
         log.info("Updating Invoice with id {}", id);
         invoice.setId(id);
@@ -71,7 +71,7 @@ public class InvoiceRest {
     }
 
 
-    @DeleteMapping
+    @DeleteMapping(value = "/{id}")
     private ResponseEntity<Invoice> deleteInvoice(@PathVariable("id") long id) {
         log.info("Fetching & Deleting Invoice with id {}", id);
         Invoice invoice = invoiceService.getInvoice(id);
@@ -82,7 +82,7 @@ public class InvoiceRest {
         invoice = invoiceService.deleteInvoice(invoice);
         return ResponseEntity.ok(invoice);
     }
-    
+
 
     //Me retorna un String, donde se contempla TODOS los errores de Validaciones que pueden ocurrir.
     private String formatMessage(BindingResult result) {
