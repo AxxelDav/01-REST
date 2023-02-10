@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 public class InvoiceRest {
 
     @Autowired
-    InvoiceService invoiceService;
+    private InvoiceService invoiceService;
 
     @GetMapping
     public ResponseEntity<List<Invoice>> listAllInvoices() {
