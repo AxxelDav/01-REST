@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: "master"
+          default-label: "5-hystrix"
           uri: https://github.com/AxxelDav/ms-store.git
           searchPaths: config-data
   security:
