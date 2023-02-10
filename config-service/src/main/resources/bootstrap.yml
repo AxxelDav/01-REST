@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: "7-admin-actuator"
+          default-label: "8-sleuth"
           uri: https://github.com/AxxelDav/ms-store.git
           searchPaths: config-data
   security:
