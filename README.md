@@ -50,9 +50,11 @@ Invoices
 
 GET
 
-http://localhost:8092/customers
+`http://localhost:8092/customers`
 
 POST
+
+`http://localhost:8092/customers`
 
 `--data-raw '{
     "numberID": "32404590",
@@ -70,11 +72,11 @@ POST
 
 GET
 
-http://localhost:8091/products
+`http://localhost:8091/products`
 
 POST
 
-http://localhost:8091/products
+`http://localhost:8091/products`
 
 `--data-raw '{
     "name": "Libro del Rey Tigre",
@@ -91,11 +93,11 @@ http://localhost:8091/products
 
 GET
 
-http://localhost:8093/invoices
+`http://localhost:8093/invoices`
 
 POST
 
-http://localhost:8093/invoices
+`http://localhost:8093/invoices`
 
 `--data-raw '{
     "numberInvoice": "002",
