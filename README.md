@@ -24,7 +24,7 @@ Tecnologias utilizadas:
 
 **Config-Service**
 
-'http://localhost:8081/service-shopping/default'
+`http://localhost:8081/service-shopping/default`
 
 **Discovery-Service (Eureka)**
 
