@@ -28,18 +28,21 @@ Tecnologias utilizadas:
 
 **Discovery-Service (Eureka)**
 
-http://localhost:8099
+`http://localhost:8099`
 
 **Gateway-Service**
 
 Customer
-http://localhost:8080/customers
+
+`http://localhost:8080/customers`
 
 Product
-http://localhost:8080/products
+
+`http://localhost:8080/products`
 
 Invoices
-http://localhost:8080/invoices/1
+
+`http://localhost:8080/invoices/1`
 
 ## Microservicios
 
@@ -51,7 +54,7 @@ http://localhost:8092/customers
 
 POST
 
-'--data-raw '{
+`--data-raw '{
     "numberID": "32404590",
     "firstName": "Axel",
     "lastName": "Cespedes",
@@ -61,7 +64,7 @@ POST
         "id": 2,
         "name": "Centroamerica"
     }
-}''
+}'`
 
 **Product**
 
@@ -73,7 +76,7 @@ POST
 
 http://localhost:8091/products
 
---data-raw '{
+`--data-raw '{
     "name": "Libro del Rey Tigre",
     "description": "Demasiado bueno el Libro",
     "stock": 70,
@@ -82,7 +85,7 @@ http://localhost:8091/products
         "id": 2,
         "name": "books"
     }
-}'
+}'`
 
 **Shopping**
 
@@ -94,7 +97,7 @@ POST
 
 http://localhost:8093/invoices
 
---data-raw '{
+`--data-raw '{
     "numberInvoice": "002",
         "description": "Invoice store",
         "customerId": 2,
@@ -110,5 +113,5 @@ http://localhost:8093/invoices
                 "productId": 3
             }
         ]
-}'
+}'`
 
