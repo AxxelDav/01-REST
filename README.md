@@ -23,9 +23,11 @@ Tecnologias utilizadas:
 ## Servicios
 
 **Config-Service**
+
 http://localhost:8081/service-shopping/default
 
 **Discovery-Service (Eureka)**
+
 http://localhost:8099
 
 **Gateway-Service**
@@ -39,9 +41,10 @@ http://localhost:8080/products
 Invoices
 http://localhost:8080/invoices/1
 
-Microservicios
+## Microservicios
 
-Customer
+**Customer**
+
 GET
 http://localhost:8092/customers
 POST
@@ -57,7 +60,8 @@ POST
     }
 }'
 
-Product
+**Product**
+
 GET
 http://localhost:8091/products
 POST
@@ -73,7 +77,8 @@ http://localhost:8091/products
     }
 }'
 
-Shopping
+**Shopping**
+
 GET
 http://localhost:8093/invoices
 POST
