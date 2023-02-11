@@ -1,4 +1,4 @@
-# Aplicacion "ms-store" (Microservicios Store) : Spring Boot & Spring Cloud
+# Aplicacion "ms-store" (Microservicios Store) : Hecha con Spring Boot & Spring Cloud
 
 Aplicacion hecha en arquitectura de microservicios, realizado en un curso de Digital Academy Lab.
 
