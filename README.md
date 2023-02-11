@@ -1,6 +1,6 @@
 # Aplicacion "ms-store" **(Microservicios Store)** : Hecha con Spring Boot & Spring Cloud
 
-Aplicacion hecha en arquitectura de microservicios, realizado en un curso de Digital Academy Lab.
+Aplicacion armada con una arquitectura de microservicios, realizado en un curso de Digital Academy Lab.
 
 Tecnologias utilizadas:
 - Java
