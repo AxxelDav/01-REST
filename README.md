@@ -24,7 +24,7 @@ Tecnologias utilizadas:
 
 **Config-Service**
 
-http://localhost:8081/service-shopping/default
+'http://localhost:8081/service-shopping/default'
 
 **Discovery-Service (Eureka)**
 
@@ -51,7 +51,7 @@ http://localhost:8092/customers
 
 POST
 
---data-raw '{
+'--data-raw '{
     "numberID": "32404590",
     "firstName": "Axel",
     "lastName": "Cespedes",
@@ -61,7 +61,7 @@ POST
         "id": 2,
         "name": "Centroamerica"
     }
-}'
+}''
 
 **Product**
 
