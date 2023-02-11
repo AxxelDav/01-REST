@@ -1,4 +1,4 @@
-# Aplicacion "ms-store" (Microservicios Store) : Hecha con Spring Boot & Spring Cloud
+# Aplicacion "ms-store" **(Microservicios Store)** : Hecha con Spring Boot & Spring Cloud
 
 Aplicacion hecha en arquitectura de microservicios, realizado en un curso de Digital Academy Lab.
 
@@ -22,13 +22,13 @@ Tecnologias utilizadas:
 
 ## Servicios
 
-Config-Service
+**Config-Service**
 http://localhost:8081/service-shopping/default
 
-Discovery-Service (Eureka)
+**Discovery-Service (Eureka)**
 http://localhost:8099
 
-Gateway-Service
+**Gateway-Service**
 
 Customer
 http://localhost:8080/customers
