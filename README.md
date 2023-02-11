@@ -46,8 +46,11 @@ http://localhost:8080/invoices/1
 **Customer**
 
 GET
+
 http://localhost:8092/customers
+
 POST
+
 --data-raw '{
     "numberID": "32404590",
     "firstName": "Axel",
@@ -63,9 +66,13 @@ POST
 **Product**
 
 GET
+
 http://localhost:8091/products
+
 POST
+
 http://localhost:8091/products
+
 --data-raw '{
     "name": "Libro del Rey Tigre",
     "description": "Demasiado bueno el Libro",
@@ -80,9 +87,13 @@ http://localhost:8091/products
 **Shopping**
 
 GET
+
 http://localhost:8093/invoices
+
 POST
+
 http://localhost:8093/invoices
+
 --data-raw '{
     "numberInvoice": "002",
         "description": "Invoice store",
